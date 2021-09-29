@@ -7,6 +7,6 @@
 > 
 > amount 를 private 으로
 > 
-> Dollar 부작용
+> ~~Dollar 부작용~~
 > 
 > Money 반올림
