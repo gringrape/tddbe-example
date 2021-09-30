@@ -1,5 +1,7 @@
 package tddbe.example;
 
+import java.util.Objects;
+
 public class Dollar {
     public int amount;
 
@@ -9,5 +11,11 @@ public class Dollar {
 
     public Dollar times(int multiplier) {
         return new Dollar(multiplier * amount);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        Dollar other = (Dollar) o;
+        return amount == other.amount;
     }
 }

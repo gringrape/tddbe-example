@@ -5,8 +5,12 @@
 > 
 > ~~5 dollars * 2 = 10 dollars~~
 > 
-> amount 를 private 으로
+> ~~amount 를 private 으로~~
 > 
 > ~~Dollar 부작용~~
 > 
 > Money 반올림
+> 
+> ~~equals()~~
+> 
+> hashCode()
